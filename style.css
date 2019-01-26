@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Baskerville-bold';
+    src: url(fonts/Baskerville-Display-PT-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(fonts/Raleway-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Raleway-light';
+    src: url(fonts/Raleway-Light.ttf)
+}
+
+
+/* FRONTPAGE */
+
+#frontpage-body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;  
+    background: url('images/background-home.svg');
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container {
+    height: 105vh;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* NAV */
+
+#logo {
+    height: 120px;
+    margin-top: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links ul li {
+    font-family: 'Raleway';
+    font-size: 34px;
+    margin-right: 30px; 
+}
+
+.nav-links ul li:nth-child(3) {
+    margin-right: 0px !important;
+}
+
+.nav-links ul a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    transition: all 0.2s ease;
+}
+
+.nav-links ul a:hover {
+    color: #f3e5dc;
+    text-decoration: underline;
+}
+
+
+/* CONTENT */
+
+#frontpage-h1 {
+    font-family: 'Baskerville-bold';
+    font-size: 100px;
+    width: 100%;
+    color: #f2ac57;
+    line-height: 95px;
+}
+
+#frontpage-p {
+    font-family: 'Raleway-light';
+    font-size: 42px;
+    width: 90%;
+    color: white;
+}
+
+#frontpage-content-l {
+    width: 50%;
+}
+
+#frontpage-content-r {
+    width: 50%;
+    margin-left: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#frontpage-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+}
+
+#header-design {
+    letter-spacing: 20px;
+}
+
+/* FOOTER */
+
+#footer-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 25vh;
+}
+
+#footer-links img {
+    height: 44px;
+    margin-right: 24px;
+}
+
+#linkedin {
+    margin-right: 0px !important;
+}
+
+#twitter {
+    height: 74px;
+    margin: 0;
+} 
+
+#twitter {
+    height: 74px !important;
+    margin-right: 0px !important;
+}
+
+/* ABOUT PAGE */
+
+#about-body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;  
+    background: url('images/background-about.svg');
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-p {
+    font-family: 'Raleway-light';
+    font-size: 26px;
+    width: 90%;
+    color: white;
+    font-weight: 200;
+    margin-top: 50px;
+}
+
+#frontpage-content-l {
+    width: 50%;
+}
+
+#about-content-r {
+    width: 50%;
+    margin-left: 50px;
+}
+
+#about-h1 {
+    color: #bf8f73;
+    font-family: 'Baskerville-bold';
+    font-size: 100px;
+    width: 100%;
+    line-height: 95px;
+}
+
+#about-h2 {
+    font-size: 50px;
+    font-family: 'Raleway-light';
+    font-weight: 400;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+
+#header-design {
+    letter-spacing: 20px;
+}
+
+#profil-pic {
+    width: 60%;
+    margin-top: 20px;
+}
+
+#kontakt {
+    color: white;
+} 
+
+
+/* PORTFOLIO */
+
+#portfolio-body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;  
+    background: url('images/background-portfolio.svg');
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#portfolio-h1 {
+    color: #f2ac57;
+    font-family: 'Baskerville-bold';
+    font-size: 100px;
+    width: 100%;
+    line-height: 95px;
+}
+
+#skills {
+    display: flex;
+    color: black;
+    margin-top: 20px;
+}
+
+#kompetencer {
+    color: white;
+    font-size: 24px;
+    font-family: 'Raleway';
+    margin-bottom: 30px;
+}
+
+#programmer {
+    color: white;
+    font-size: 24px;
+    font-family: 'Raleway';
+    margin-bottom: 30px;
+}
+
+#portfolio-l {
+    list-style: none;
+    margin-right: 100px;
+}
+
+#portfolio-l li {
+    font-family: 'Raleway';
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#portfolio-r {
+    list-style: none;
+}
+
+#portfolio-r li {
+    font-family: 'Raleway';
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#portfolio-p {
+    font-family: 'Raleway-light';
+    font-size: 18px;
+    width: 55%;
+    color: white;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+#portfolio-h2 {
+    font-size: 24px;
+    font-family: 'Raleway-light';
+    font-weight: 400;
+    color: #f2ac57;
+}
+
+.title {
+    font-size: 26px !important;
+}
+
+#portfolio-nav ul li a {
+    color: white !important;
+}
+
+
+/* PORTFOLIO */
+
+#contact-body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;  
+    background: url('images/background-kontakt.svg');
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-h1 {
+    color: #785037;
+    font-family: 'Baskerville-bold';
+    font-size: 100px;
+    width: 100%;
+    line-height: 95px;
+}
+
+#contact-h2 {
+    font-family: 'Raleway-light';
+    font-size: 42px;
+    color: white;
+    font-weight: 400;
+}
+
+#contact-title {
+    font-family: 'Raleway';
+    font-size: 22px;
+    color: white;
+}
+
+.li-text {
+    font-family: 'Raleway';
+    color: black;
+    font-size: 18px;
+}
+
+#contact-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#contact-text li{
+    list-style: none;
+}
+
+.telefon {
+    margin-top: 50px;
+}
+
+.adresse {
+    margin-top: 50px;
+}
+
+.email {
+    font-size: 30px;
+    border-bottom: 1.5px solid #000;
+    display: inline-block;
+}
+
+.portfolio-links {
+    width: 100% !important;
+}

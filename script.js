@@ -28,4 +28,3 @@ window.addEventListener('load', (e) => {
         contactHeader[0].classList += 'frontpage-transition';  
     }, 500) 
 })
-

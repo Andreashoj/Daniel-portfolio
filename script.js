@@ -29,4 +29,3 @@ window.addEventListener('load', (e) => {
     }, 500) 
 })
 
-alert('hi')

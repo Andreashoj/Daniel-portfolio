@@ -94,6 +94,13 @@ nav {
     width: 100%;
     color: #f2ac57;
     line-height: 95px;
+    transform: translateX(-600px);
+    transition: all 0s ease;
+}
+
+.frontpage-transition {
+    transform: translateX(0px) !important;
+    transition: all 1s ease !important;
 }
 
 #frontpage-p {
@@ -192,6 +199,8 @@ nav {
     font-size: 100px;
     width: 100%;
     line-height: 95px;
+    transform: translateX(-600px);
+    transition: all 0s ease;
 }
 
 #about-h2 {
@@ -244,6 +253,8 @@ nav {
     font-size: 100px;
     width: 100%;
     line-height: 95px;
+    transform: translateX(-600px);
+    transition: all 0s ease;
 }
 
 #skills {
@@ -333,6 +344,8 @@ nav {
     font-size: 100px;
     width: 100%;
     line-height: 95px;
+    transform: translateX(-600px);
+    transition: all 0s ease;
 }
 
 #contact-h2 {
@@ -379,5 +392,5 @@ nav {
 }
 
 .portfolio-links {
-    width: 100% !important;
+    width: 90% !important;
 }
